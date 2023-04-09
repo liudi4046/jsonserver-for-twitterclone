@@ -4,7 +4,8 @@
     "json-server-auth": "^2.1.0"
   },
   "scripts": {
-    "build": "json-server db.json -m ./node_modules/json-server-auth -r routes.json -p 3001",
+    "start": "json-server db.json -m ./node_modules/json-server-auth -r routes.json -p 3001",
+    "build": "",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
